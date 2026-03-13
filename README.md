@@ -18,6 +18,7 @@ You can edit these to your liking and/or upload them with no restrictions.
 * Waybar – status bar
 * Rofi – application launcher
 * Kitty – terminal emulator
+* Swaync - notifications(optional)
 * JetBrainsMono Nerd Font – font used for icons and text
 <sup>you can use any nerd font, just edit the appropriate </sup>
 ---
