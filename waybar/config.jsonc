@@ -1,8 +1,8 @@
 {
   "layer": "bottom",
   "position": "top",
-  "height": 40,
-  "spacing": 2,
+  "height": 42,
+  "spacing": 1,
   "exclusive": true,
   "gtk-layer-shell": true,
   "passthrough": false,
@@ -24,6 +24,7 @@
     "pulseaudio",
     "clock",
     "clock#simpleclock",
+    "battery",
     "tray",
     "custom/notification",
     "custom/power"
@@ -59,7 +60,8 @@
     },
     "player-icons": {
       "default": ""
-    }
+    },
+        "max-length": 30
   },
 
   "cpu": {
@@ -116,10 +118,16 @@
     "tooltip": false,
     "format": " {:%H:%M}"
   },
-
+ "battery": {
+       "format": "{capacity}% {icon}",
+    "format-charging": "{capacity}% ",
+    "format-plugged": "{capacity}% ",
+    "format-alt": "{time} {icon}",
+    "format-icons": ["", "", "", "", ""] 
+ },
   "custom/power": {
     "tooltip": false,
-    "on-click": "wlogout -p layer-shell &",
+    "on-click": "hyprctl dispatch exit",
     "format": "⏻"
   },
 

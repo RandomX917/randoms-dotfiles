@@ -21,12 +21,13 @@ window#waybar {
 #custom-power,
 #custom-notification,
 #cpu,
+#battery,
 #tray,
 #memory,
 #window,
 #mpris {
   padding: 0.3rem 0.6rem;
-  margin: 0.4rem 0.25rem;
+  margin: 0.2rem 0.15rem;
   border-radius: 10px;
 
   background-color: rgba(30, 30, 46, 0.75);
@@ -59,10 +60,12 @@ window#waybar {
 #clock { color: #74c7ec; }
 #clock.simpleclock { color: #89b4fa; }
 #window { color: #cdd6f4; }
-
+#battery{ color: #11cdab}
 #pulseaudio { color: #b4befe; }
 #pulseaudio.muted { color: #a6adc8; }
-
+#window {
+  min-width: 0;
+}
 #backlight { color: #f9e2af; }
 
 #mpris.playing { color: #a6e3a1; }
