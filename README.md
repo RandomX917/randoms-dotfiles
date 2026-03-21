@@ -20,8 +20,11 @@ You can edit these to your liking and/or upload them with no restrictions.
 * Kitty – terminal emulator
 * Hyprsunset - night light 
 * Swaync - notifications(optional)
+* gpu-screen-recorder - records screen using GPU(optional)[requires complex setup]
+* dolphin - file manager [this can be changed to any file manager, edit ~/.config/hypr/hyprland.conf]
+* grim, slurp, wl-copy - screenshot keybinds
 * JetBrainsMono Nerd Font – font used for icons and text
-<sup>you can use any nerd font, just edit the appropriate </sup>
+<sup>you can use any nerd font, just edit the appropriate files </sup>
 ---
 
 ## Structure
@@ -72,5 +75,5 @@ cp -r wallpapers ~/Pictures/
 
 ## License
 
-This repository is released under the Unlicense.
+This repository is now licensed under the MIT License. See LICENSE for more information.
 
