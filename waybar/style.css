@@ -8,8 +8,8 @@
 
 
 window#waybar {
-  background-color: rgba(17, 17, 27, 0.55);
-  border-bottom: 1px solid rgba(137, 180, 250, 0.2);
+  background-color: rgba(17, 17, 27, 0.0);
+  border-bottom: 1px solid rgba(137, 180, 250, 0.0);
   transition: background-color 0.3s ease;
 }
 
@@ -22,6 +22,8 @@ window#waybar {
 #custom-notification,
 #cpu,
 #battery,
+#disk,
+#temperature,
 #tray,
 #memory,
 #window,
@@ -30,31 +32,15 @@ window#waybar {
   margin: 0.2rem 0.15rem;
   border-radius: 10px;
 
-  background-color: rgba(30, 30, 46, 0.75);
-  border: 1px solid rgba(255,255,255,0.05);
+  background-color: rgba(30, 30, 30, 0.25);
+  border: 1px solid rgba(255,255,255,0.0);
 
   transition: all 0.2s ease;
 }
 
-#workspaces button {
-  color: #cdd6f4;
-}
 
-#workspaces button:hover {
-  background-color: rgba(137, 180, 250, 0.25);
-}
-
-#workspaces button.active {
-  background-color: #89b4fa;
-  color: #1e1e2e;
-}
-
-#workspaces button.urgent {
-  background-color: #f38ba8;
-  color: #1e1e2e;
-}
-
-
+#disk { color: #4f74ba; }
+#temperature { color: #f38ba8; }
 #cpu { color: #94e2d5; }
 #memory { color: #cba6f7; }
 #clock { color: #74c7ec; }

@@ -38,3 +38,8 @@ window#waybar {
   background-color: #f38ba8;
   color: #1e1e2e;
 }
+#tray {
+  background-color: rgba(30, 30, 30, 0.25);
+  border: 1px solid rgba(255,255,255,0.0);
+  border-radius: 10px;
+}
