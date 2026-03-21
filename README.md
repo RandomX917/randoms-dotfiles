@@ -1,5 +1,5 @@
-## randoms-dotfiles
-
+# randoms-dotfiles
+## **REMEMBER TO BACKUP YOUR CURRENT CONIFG**
 My personal Linux dotfiles used for my hyprland setup.
 These configs are mainly for:
 
@@ -45,6 +45,20 @@ You can edit these to your liking and/or upload them with no restrictions.
 └── wallpapers
 ```
 
+---
+## Keybinds
+$mainMod + Q = open kitty
+$mainMod + E = open dolphin
+$mainMod + D = open rofi
+$mainMod + W = close window
+$mainMod + V = toggle floating(P also does this for some reason)
+$mainMod + R = record screen via gpu-screen-recorder
+$mainMod + S = screenshot using grim and slurp and wl-copy
+$mainMod + A = toggle scratchpad
+$mainMod + C = toggle night light using hyprsunset
+$mainMod + Shift + A = send focused window to scratchpad
+$mainMod + B = open browser (firefox in my case, change in hyprland.conf)
+$mainMod + J = Togglesplit 
 ---
 
 ## Installation
