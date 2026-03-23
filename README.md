@@ -51,11 +51,12 @@ You can edit these to your liking and/or upload them with no restrictions.
 * $mainMod + E = open dolphin
 * $mainMod + D = open rofi
 * $mainMod + W = close window
-* $mainMod + V = toggle floating(P also does this for some reason)
+* $mainMod + V = toggle floating
+* $mainMod + P = toggle pseudotiling for active window
 * $mainMod + R = record screen via gpu-screen-recorder
 * $mainMod + S = screenshot using grim and slurp and wl-copy
 * $mainMod + A = toggle scratchpad
-* $mainMod + C = toggle night light using hyprsunset
+* $mainMod + C = toggle night light on/off using hyprsunset
 * $mainMod + Shift + A = send focused window to scratchpad
 * $mainMod + B = open browser (firefox in my case, change in hyprland.conf)
 * $mainMod + J = Togglesplit 
