@@ -1,0 +1,113 @@
+{
+  "layer": "bottom",
+  "position": "top",
+  "height": 42,
+  "spacing": 1,
+  "exclusive": true,
+  "gtk-layer-shell": true,
+  "passthrough": false,
+  "fixed-center": true,
+"modules-left":[
+    "cpu",
+    "memory",
+    "disk",
+    "temperature"
+  ],
+
+  "modules-center": [
+  
+  ],
+
+  "modules-right": [
+    "backlight",
+    "pulseaudio",
+    "clock",
+    "clock#simpleclock",
+    "battery",
+    "custom/notification",
+    "custom/power"
+  ],
+
+  "cpu": {
+    "format": " {usage}%",
+    "interval": 1,
+    "tooltip": true
+  },
+
+  "memory": {
+    "format": " {used:0.1f}Gi"
+  },
+  "disk": {
+    "format": " {percentage_used}%",
+    "path": "/"
+  },
+  "temperature": {
+    "format": " {temperatureC}°C",
+    "interval": 5,
+    "tooltip": true
+  },
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "☀ {percent}%",
+    "scroll-step":5,
+    "tooltip": false
+  },
+
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": " muted",
+    "scroll-step": 5,
+    "format-icons": {
+      "headphone": "",
+      "default": ["", "", ""]
+    },
+    "on-click": "pavucontrol"
+  },
+  "clock": {
+    "format": " {:L%a %d %b}",
+    "calendar": {
+      "format": {
+        "days": "<span weight='normal'>{}</span>",
+        "months": "<span color='#cdd6f4'><b>{}</b></span>",
+        "today": "<span color='#f38ba8' weight='700'><u>{}</u></span>",
+        "weekdays": "<span color='#f9e2af'><b>{}</b></span>",
+        "weeks": "<span color='#a6e3a1'><b>W{}</b></span>"
+      },
+      "mode": "month",
+      "mode-mon-col": 1,
+      "on-scroll": 1
+    },
+    "tooltip-format": "<span color='#cdd6f4' font='Lexend 16'><tt><small>{calendar}</small></tt></span>"
+  },
+
+  "clock#simpleclock": {
+    "tooltip": false,
+    "format": " {:%H:%M}"
+  },
+ "battery": {
+       "format": "{capacity}% {icon}",
+    "format-charging": "{capacity}% ",
+    "format-plugged": "{capacity}% ",
+    "format-alt": "{time} {icon}",
+    "format-icons": ["", "", "", "", ""] 
+ },
+  "custom/power": {
+    "tooltip": false,
+    "on-click": "hyprctl dispatch exit",
+    "format": "⏻"
+  },
+
+  "custom/notification": {
+    "escape": true,
+    "exec": "swaync-client -swb",
+    "exec-if": "which swaync-client",
+    "format": "{icon}",
+    "format-icons": {
+      "none": "󰅺",
+      "notification": "󰡟"
+    },
+    "on-click": "sleep 0.1 && swaync-client -t -sw",
+    "return-type": "json",
+    "tooltip": false
+  }
+}
