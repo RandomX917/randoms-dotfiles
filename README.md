@@ -6,7 +6,7 @@ These configs are mainly for:
 * Hyprland
 * Waybar
 * Rofi
-* Kitty
+* Foot
 
 You can edit these to your liking and/or upload them with no restrictions.
 
@@ -70,11 +70,11 @@ Just copy and paste this script:
 git clone https://github.com/RandomX917/randoms-dotfiles.git
 cd randoms-dotfiles
 cp -r hypr ~/.config/
-cp -r kitty ~/.config/
+cp -r foot ~/.config/
 cp -r rofi ~/.config/
 cp -r waybar ~/.config/
 ```
-
+<sup> kitty has been changed to foot </sup>
 You can also copy these wallpapers:
 <sup>These are made by me btw :)</sup>
 ```
