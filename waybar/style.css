@@ -30,9 +30,9 @@ window#waybar {
 #mpris {
   padding: 0.3rem 0.6rem;
   margin: 0.2rem 0.15rem;
-  border-radius: 10px;
+  border-radius: 50px;
 
-  background-color: rgba(30, 30, 30, 0.25);
+  background-color: rgba(30, 30, 30, 0.0);
   border: 1px solid rgba(255,255,255,0.0);
 
   transition: all 0.2s ease;
@@ -40,7 +40,7 @@ window#waybar {
 
 
 #disk { color: #4f74ba; }
-#temperature { color: #f38ba8; }
+#temperature { color: #d32358; }
 #cpu { color: #94e2d5; }
 #memory { color: #cba6f7; }
 #clock { color: #74c7ec; }
