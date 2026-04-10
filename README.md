@@ -17,11 +17,11 @@ You can edit these to your liking and/or upload them with no restrictions.
 * Hyprland – Wayland compositor
 * Waybar – status bar
 * Rofi – application launcher
-* Kitty – terminal emulator
+* Foot – terminal emulator
 * Hyprsunset - night light 
 * Swaync - notifications(optional)
-* gpu-screen-recorder - records screen using GPU(optional)[requires complex setup]
-* dolphin - file manager [this can be changed to any file manager, edit ~/.config/hypr/hyprland.conf]
+* OBS studio - recorder (optional)
+* nautilus - file manager [this can be changed to any file manager, edit $HOME/.config/hypr/hyprland.conf]
 * grim, slurp, wl-copy - screenshot keybinds
 * JetBrainsMono Nerd Font – font used for icons and text
 <sup>you can use any nerd font, just edit the appropriate files </sup>
@@ -69,16 +69,17 @@ Just copy and paste this script:
 ```
 git clone https://github.com/RandomX917/randoms-dotfiles.git
 cd randoms-dotfiles
-cp -r hypr ~/.config/
-cp -r foot ~/.config/
-cp -r rofi ~/.config/
-cp -r waybar ~/.config/
+cp -r hypr $HOME/.config/
+cp -r foot $HOME/.config/
+cp -r rofi $HOME/.config/
+cp -r waybar $HOME/.config/
+cp aw3script.sh $HOME 
 ```
 <sup> kitty has been changed to foot </sup>
 You can also copy these wallpapers:
 <sup>These are made by me btw :)</sup>
 ```
-cp -r wallpapers ~/Pictures/
+cp -r wallpapers $HOME/Pictures/
 ```
 
 ---
