@@ -31,6 +31,8 @@ You can edit these to your liking and/or upload them with no restrictions.
 
 ```
 .
+├── foot
+│   └── foot.ini
 ├── hypr
 │   ├── hyprland.conf
 │   ├── hyprlock.conf
@@ -90,5 +92,5 @@ cp -r wallpapers ~/Pictures/
 
 ## License
 
-This repository is now licensed under the MIT License. See LICENSE for more information.
+This repository is licensed under the MIT License. See LICENSE for more information.
 
