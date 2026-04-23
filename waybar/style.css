@@ -39,26 +39,26 @@ window#waybar {
 }
 
 
-#disk { color: #4f74ba; }
-#temperature { color: #d32358; }
-#cpu { color: #94e2d5; }
-#memory { color: #cba6f7; }
-#clock { color: #74c7ec; }
-#clock.simpleclock { color: #89b4fa; }
-#window { color: #cdd6f4; }
-#battery{ color: #11cdab}
-#pulseaudio { color: #b4befe; }
-#pulseaudio.muted { color: #a6adc8; }
+#disk,
+#temperature,
+#cpu,
+#memory,
+#clock,
+#clock.simpleclock,
+#window,
+#battery,
+#pulseaudio,
+#pulseaudio.muted
+{color:#5a5a5a; }
 #window {
   min-width: 0;
 }
-#backlight { color: #f9e2af; }
-
-#mpris.playing { color: #a6e3a1; }
-#mpris.paused { color: #9399b2; }
-
-#custom-power { color: #f38ba8; }
-#custom-notification { color: #fab387; }
+#backlight,
+#mpris.playing,
+#mpris.paused,
+#custom-power,
+#custom-notification
+{ color: #5a5a5a; }
 
 #tray {
   padding-right: 8px;
